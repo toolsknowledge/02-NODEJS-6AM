@@ -1,0 +1,132 @@
+<!--
+    functions
+    *********
+        - particular "business logic" called as "function"
+
+        - functions are used to "reuse" the business logic
+
+        - function with particular name called as "named" function
+
+        - function without name called as "anonymous" function
+    
+    named functions
+    ***************
+    1) function definition
+
+    2) function calling
+
+    function definition
+    +++++++++++++++++++
+   function functionname(param1,param2,param3,.....paramn){
+       business logic
+   }
+
+   function calling
+   ++++++++++++++++
+   functionname(arg1,arg2,arg3,......arg n);
+-->
+
+<!--
+<script>
+    function fun_one(){
+        return "welcome to named functions";
+    };
+
+    console.log( fun_one() );                           //welcome to named functions
+</script>
+-->
+
+
+<!--
+<script>
+    function fun_one(){
+        return "welcome to nodejs";
+    }
+
+    console.log( fun_one );
+</script>
+-->
+<!--
+<script>
+    function fun_one(){
+        return fun_two;
+    }
+    function fun_two(){
+        return "Hello";
+    }
+    console.log( fun_one()() );             //Hello
+</script>
+-->
+
+<script>
+    function fun_one(param1,param2,param3){
+        console.log( param1, param2, param3 );
+    }
+    fun_one("Hello_1","Hello_2","Hello_3");                 //Hello_1 Hello_2 Hello_3
+    fun_one();                                              //undefined undefined undefined
+    fun_one(undefined,"Hello_2");                           //undefined 'Hello_2' undefined
+    fun_one(null,null,null);                                //null null null
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

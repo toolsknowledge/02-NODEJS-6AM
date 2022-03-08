@@ -1,0 +1,194 @@
+Day-1
+*****
+	JavaScript is the Scripting Language
+
+	JavaScript Released by Netscape
+
+	Current Version of JavaScript is ES13
+
+	ES Stands for ECMA Script
+
+	The extension for JavaScript files is ".js"
+
+	we will include in webpages with <script></script> tag
+
+	JavaScript, used to convert the static webpages to dynamic webpages
+
+	JavaScript, used to build the Angular,React,Node and VueJS,.....
+
+	we can execute JavaScript in two ways.
+
+		1) intrepreter
+
+		2) node
+
+
+	intrepreter available in Browsers
+	
+	node tool present in NodeJS
+
+	JavaScript Execution is Synchronous Execution 
+		(Code will execute line by line)
+
+	Vendor Released the so many predefined objects.
+
+		Ex.
+				window
+
+				document
+
+				console
+
+				Date
+
+				---
+				---
+				---
+
+	so, we can call JavaScript is the Object Based Scripting Language
+
+Software Installations
+**********************
+1) download and install NodeJS
+
+	NodeJS containes node tool
+
+	node tool helps to execute the JavaScripy
+
+	website : https://nodejs.org/en/download/
+
+	file    : node-v16.14.0-x64.msi
+
+
+
+2) download and install IDE
+
+	IDE Stands for Integrated Development Environment
+
+	Visual Studio Code IDE is Suggestable IDE to build the JS Applications
+
+	VSCode IDE Given by Microsoft and Open Source IDE
+
+website : https://code.visualstudio.com/docs/?dv=win
+
+file    : VSCodeUserSetup-x64-1.64.2.exe
+
+
+Execution of JavaScript
+***********************
+
+> node demo.js
+
+	where "demo.js" is the name of the javascript file
+
+	where "node" is the tool
+
+	where "node" tool, helps to execute the JavaScript.
+
+
+
+Day-2
+*****
+
+	+   (plus)
+
+	-   (minus)
+
+	*  (multiplication)
+
+	/ (division)
+
+	== (double equal)
+
+	===  (triplle equal)
+
+	&   (And)
+
+	|   (OR)
+
+	^ (XOR)
+
+	!  (Bang)
+
+	> (greater than)
+
+	< (less than)
+
+
+Day-3
+*****
+Variables
++++++++++
+	- Variables are used to "store" the data
+
+	Ex.
+			string
+			number
+			boolean
+			Arrays
+			Objects
+			---
+			---
+			---
+	- we can declare the Variables by using "var" / "let" / "const"
+
+	- "let" and "const" keyword introduced in "ES6"
+
+	- Variables declaration should contain 
+
+			a-z
+
+			A-Z
+
+			0-9
+
+			$
+
+			and 
+
+			_
+
+	- Variables declaration should not start with digits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+			**** NodeJS ****
+Advanced JavaScript
+-------------------
+1)String Functions
+
+2)Callbacks
+
+3)Scope
+
+4)ProtoType
+
+5)Ajax
+
+6)Promises
+
+7)Generators
+
+8)Closures
+
+9)Currying
+
+10)Higher Order Functions
+
+11)Regular Expressions
+
+12)Recursion
+
+13)Fetch
+
+14)Async/Await
+
+15)Error Handling
+
+16)call/apply/bind
+
+17)arrow functions and this
+
+
+NodeJS
+------
+1) Introduction to NodeJS
+
+2) Installation Of NodeJS
+
+3) Modules in NodeJS
+
+4) Http Server in NodeJS
+
+5) ExpressJS
+
+6) CRUD Operation on Following DataBase
+	
+	1) MySQL
+
+	2) MongoDB
+
+	3) SQL Server
+
+7) Connection Pooling Mechanism
+
+8) Promises in NodeJS
+
+9) Events in NodeJS
+
+10) Image Uploading in NodeJS
+
+11) Cluster
+
+12) Template Engines
+
+13) Event Loop Mechanism
+
+14) Deployement
+
+15) MiniProject
+
+
+
+
+
+
+
+
+
+
+
+
