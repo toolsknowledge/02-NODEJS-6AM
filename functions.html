@@ -58,6 +58,8 @@
 </script>
 -->
 
+
+<!--
 <script>
     function fun_one(param1,param2,param3){
         console.log( param1, param2, param3 );
@@ -67,6 +69,153 @@
     fun_one(undefined,"Hello_2");                           //undefined 'Hello_2' undefined
     fun_one(null,null,null);                                //null null null
 </script>
+-->
+
+<!--
+<script>
+    function fun_one(...param1){
+        console.log( param1 );
+    };
+    fun_one("Hello_1","Hello_2");                       // ['Hello_1', 'Hello_2']
+    fun_one(100,200,300,400,500);                       //[100, 200, 300, 400, 500]
+    fun_one();                                          //[]
+    fun_one(undefined,undefined);                       //[undefined, undefined]
+    fun_one(null,null);                                 //[null, null]
+</script>
+-->
+
+
+<!--
+    <script>
+        function fun_one(...param1,...param2){}
+        //we can supply only one spread operator per function
+    </script>
+-->
+
+<!--
+<script>
+    function fun_one(...param2,param1){
+
+    }
+    //position of spread operator should be the last in occurances
+</script>
+-->
+
+
+<!--
+<script>
+    function fun_one(param1,...param2 ){
+        console.log( param1, param2 );
+    }
+    fun_one();                                  //undefined []
+    fun_one("Hello_1","Hello_2");               //Hello_1 ['Hello_2']
+    fun_one("Hello_1","Hello_2","Hello_3");     //Hello_1  ['Hello_2', 'Hello_3']
+    fun_one(undefined,undefined);               //undefined [undefined]
+    fun_one(null,null,null);                    //null  [null, null]
+</script>
+-->
+
+
+<!--default parameters in functions
+ES6-->
+
+<!--
+<script>
+    function fun_one(param1="Hello_1",param2="Hello_2",param3="Hello_3"){
+        console.log( param1, param2, param3 );              
+    }
+    fun_one();                                                      //Hello_1 Hello_2 Hello_3
+    fun_one("Welcome_1","Welcome_2","Welcome_3");                   //Welcome_1 Welcome_2 Welcome_3
+    fun_one(undefined,undefined,undefined);                         //Hello_1 Hello_2 Hello_3
+    fun_one(null,null,null);                                        //null null null
+</script>
+-->
+
+
+<!--
+<script>
+    function fun_one(param1,param2="Hello_2",...param3){
+        console.log( param1, param2, param3 );
+    }
+    fun_one();                                                  //undefined 'Hello_2' []
+    fun_one("Hello_1");                                         //Hello_1 Hello_2 []
+    fun_one("Hello_1",undefined,"Hello_3");                     //Hello_1 Hello_2 ['Hello_3']
+    fun_one(undefined,undefined,undefined);                     //undefined 'Hello_2' [undefined]
+    fun_one(null,null,null);                                    //null null [null]
+</script>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
