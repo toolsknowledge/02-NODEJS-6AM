@@ -146,6 +146,162 @@ ES6-->
 -->
 
 
+<!--
+    anonymous functions
+
+    The function without name called as "anonymous" functions
+
+    anonymous functions also called as "arrow" functions
+
+    arrow functions introduced in "ES6"
+
+    arrow functions we will represent with "=>"
+
+    arrow functions behaves like callback functions
+
+    Syntax
+    ******
+    1) function definition
+
+    2) function calling
+
+    function definition
+    ********************
+    let varname = (param1,param2,param3,.....param n)=>{
+        business logic
+    }
+
+    function calling
+    ****************
+    varname(arg1,arg2,arg3,....arg n);
+-->
+
+
+<!--
+<script>
+    let fun_one = ()=>{
+        return "welcome to arrow functions";
+    }
+
+    console.log( fun_one() );
+    //welcome to arrow functions
+</script>
+-->
+
+<!--
+<script>
+    let fun_one = ()=> "Hello";
+    console.log( fun_one() );               
+    //Hello
+</script>
+-->
+
+<!--
+<script>
+    let fun_one = (param1,param2,param3)=>{
+        console.log( param1, param2, param3 );
+    }
+    fun_one("Hello_1","Hello_2","Hello_3");
+    //Hello_1 Hello_2 Hello_3
+    fun_one("Welcome_1","Welcome_2","Welcome_3");
+    //Welcome_1 Welcome_2 Welcome_3
+    fun_one();
+    //undefined undefined undefined
+    fun_one(undefined,"Hello_2");
+    //undefined 'Hello_2' undefined
+    fun_one(null,null,null);
+    //null null null
+</script>
+-->
+
+
+<!--
+<script>
+    let fun_one = (param1,param2)=>{
+        console.log( param1(), param2() );
+    };
+    fun_one( ()=>{ return "Hello_1" }, ()=>{ return "Hello_2" } );
+    //Hello_1 Hello_2
+</script>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
