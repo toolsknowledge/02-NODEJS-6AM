@@ -153,6 +153,497 @@ Variables
 
 
 
+1) Introduction to NodeJS
+
+	
+2) Installation of NodeJS
+
+
+3) Http Server
+
+		GET
+
+		POST
+
+		GET PARAMETERS
+
+		POST PARAMETERS
+
+4) ExpressJS
+
+		Framework
+
+		Node Framework
+
+		Rest API'S
+			
+			GET
+			POST
+			PUT
+			DELETE
+			HEAD
+			TRACE
+			PATCH
+			---
+			---
+			---
+
+5) Modules in NodeJS
+
+		Export
+
+		Import
+
+
+6) Databases Integration
+
+		CRUD OPERATIONS
+
+		C - CREATE
+
+		R - READ
+
+		U - UPDATE
+
+		D - DELETE
+
+		Oracle
+
+		MySQL
+
+		SQLServer
+
+		POSTGRESQL
+
+		MongoDB          ===> mongodb / mongoose
+
+
+
+7) MEAN Stack
+
+	M - MongoDB
+
+	E - ExpressJS
+
+	A - Angular
+
+	N - NodeJS
+
+
+8) MERN Stack
+
+	M - MongoDB
+
+	E - ExpressJS
+
+	R - ReactJS
+
+	N - NodeJS
+
+
+9) Authentication
+
+	JWT Authentication
+
+	JSON Web Token Authentication
+
+
+10) Mail API
+
+
+11) Multer Module
+
+		Uploading the Images to Server
+
+
+12) Gmail Auth, Facebook Auth Twitter Auth
+
+13) Production Build
+
+14) Cloud Deployment
+
+		AWS Deployment
+
+		
+15) Template Engines
+
+		JADE
+
+
+16) Socket IO
+		
+
+
+Introduction to NodeJS
+**********************
+	- NodeJS, is the runtime Environment to build the server side applications.
+
+	- NodeJS, helps to build the "backend" applications.
+
+	- NodeJS, depending on "ExpressJS" Framework to develop rest api's
+
+		Ex.
+			GET
+			POST
+			PUT
+			DELETE
+			---
+			---
+			---
+
+	- we will build the NodeJS applications with the help of javaScript.
+
+	- NodeJS, Supports the modules
+
+modules
+*******
+1) http
+	- http module, used to develop the http servers
+
+
+2) express
+	- express module, used to develop the Rest API'S
+
+			GET
+			POST
+			PUT
+			DELETE
+
+3) mongodb
+
+	mongodb module, used to connect to mongodb database without "schema"
+
+
+4) mongoose
+
+	mongodb module, used to connect to mongodb database with "schema"
+
+
+Note : schema means rules and regulations
+
+
+5) mysql
+
+	mysql module, used to connect to mysql database
+
+6) mssql
+
+	mssql module, used to connect to SQLServer
+
+
+7) oracledb
+
+	this module used to connect to oracle database
+
+
+8) multer
+
+	multer module, used to upload the images to the server
+
+
+9) socket.io
+
+	used to implement the chat applications
+
+
+10) cors
+
+	used to enable the communication between ports
+
+
+11) jwt-simple
+
+	this module, used to generate the tokens
+	
+	these token are used to perform the token based authentication
+
+we will download above modules in two ways.
+
+1) npm
+
+2) yarn
+
+above libraries downloads to node_modules directory in current path
+
+Software Installation
+*********************
+1) download and install NodeJS
+
+	website : https://nodejs.org/en/download/
+
+	file    : node-v16.14.1-x64.msi
+
+
+2) install yarn tool
+
+		yarn tool, used to download the libraries
+
+		yarn tool, Released by Facebook
+
+		yarn tool, Installation is command based Installation
+
+
+		> npm install -g yarn
+
+		where "-g" stands for global installation
+
+3) install "nodemon" tool
+
+	"nodemon" is the tool.
+
+	"nodemon" tool, used to start the server in watch mode
+
+	"nodemon" tool, installation also command based installation
+
+	> npm install -g nodemon				
+
+
+
+4) install Postman
+
+	Postman is the tool, used to test the rest api calls
+
+
+website : https://www.postman.com/downloads/
+
+
+
+
+5) download and install Visual Studio Code
+
+	Visual Studio Code is the IDE, released by Microsoft and open source IDE
+
+	VSCode IDE Recomemded to build NodeJS Applications
+
+	website : https://code.visualstudio.com/docs/?dv=win
+
+	file    : VSCodeUserSetup-x64-1.65.2.exe
+
+
+
+start the server
+****************
+1) > node <filename.js>
+
+	Ex.
+
+		> node server.js
+
+
+2) > nodemon server.js
+
+		automatically server will start in watch mode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
