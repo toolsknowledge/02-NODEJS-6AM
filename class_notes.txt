@@ -436,6 +436,116 @@ start the server
 
 
 
+MongoDB
+*******
+	- We have two types of Databases
+
+			1) SQL Databases
+
+					Ex. Oracle,MySQL,SQLServer
+
+			2) NoSQL Databases
+
+					Ex. MongoDB,CassandraDB
+
+	- finally MongoDB Database is "NoSQL" Database
+
+	- MongoDB Database Supports "JSON"
+
+	- JSON Stands for "Java Script Object Notation"
+
+	- Because of JSON, MongoDB Database is "light Weight" Database.
+
+	- MongoDB Database follows the "mongodb" Protocol
+
+	- By Default MongoDB Running on Port No.27017
+
+	- NodeJS, can connect to MongoDB Database by using following libraries
+
+			1) mongodb
+
+			2) mongoose
+
+	- mongodb wont follows the schema
+
+	- mongoose follows the schema
+
+	- "schema" means "rules and regulations" related to databases
+
+
+						SQL												NoSQL
+
+Ex.
+			oracle													MongoDB
+
+			MySQL													CassandraDB
+
+			SQLServer
+
+			
+			will supports databases									will supports databases
+
+
+			will supports "tables"									will support "collections"
+
+			will support "primary key"								will support "_id"
+
+			rows													documents
+
+			field													property
+
+	- MongoDB Database supports "Cloud" Environment in the form of "MongoDB Atlas"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
